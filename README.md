@@ -175,4 +175,5 @@ public class MainActivity extends Activity {
 
 ## 2.4 Debug工具
 也可以通过debug的方式运行应用，进行断点调试。
+![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-161211.png)
 
