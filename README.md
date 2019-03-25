@@ -5,7 +5,7 @@
 安装好Android Studio，下载并配置好相关开发包资源后，我们开始创建并运行第一个Android应用。
 ## 1.1创建新项目
 运行Andriod并点击『Create New Project』打开创建窗口，选择『Phone and Tablet』下面的『Add No Activity』,然后下一步。
-
+![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-130857.png)
 
 填写应用名称及应用包名，PackageName是APP的唯一标识，每个安卓的应用的PackageName都应该是不同的。
 Minimum API level是指本次创建的应用支持安卓系统的最低版本，图中可见当前85%以上的安卓手机运行的是5.0以上的系统版本。
@@ -175,4 +175,5 @@ public class MainActivity extends Activity {
 
 ## 2.4 Debug工具
 也可以通过debug的方式运行应用，进行断点调试。
+
 ![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-161211.png)
