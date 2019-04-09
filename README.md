@@ -1,23 +1,22 @@
-# MyFirstApp
 
 
 # 1创建项目
 安装好Android Studio，下载并配置好相关开发包资源后，我们开始创建并运行第一个Android应用。
 ## 1.1创建新项目
 运行Andriod并点击『Create New Project』打开创建窗口，选择『Phone and Tablet』下面的『Add No Activity』,然后下一步。
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-130857.png)
+![image](http://youdao.mikezz.cn/QQ20190311-130857.png-wardo)
 
 填写应用名称及应用包名，PackageName是APP的唯一标识，每个安卓的应用的PackageName都应该是不同的。
 Minimum API level是指本次创建的应用支持安卓系统的最低版本，图中可见当前85%以上的安卓手机运行的是5.0以上的系统版本。
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-132513.png)
+![image](http://youdao.mikezz.cn/QQ20190311-132513.png-wardo)
 
 点击『Finish』，等待项目创建完成。
 把项目目录视图切换为『Project』，如下图。
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-133646.png)  切换视图为![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-135625.png)
+![image](http://youdao.mikezz.cn/QQ20190311-133646.png-wardo)  切换视图为![image](http://youdao.mikezz.cn/QQ20190311-135625.png-wardo)
 
-此时项目虽然已创建，但并非可运行调试的。如图所示。![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-135904.png)
+此时项目虽然已创建，但并非可运行调试的。如图所示。![image](http://youdao.mikezz.cn/QQ20190311-135904.png-wardo)
 
 ## 1.2创建Activity
 Activity为安卓应用中四大组件之一，也是开发中最频繁接触的内容。可先理解为APP的界面，一个Activity相当于APP的一个界面。
@@ -25,10 +24,10 @@ Activity为安卓应用中四大组件之一，也是开发中最频繁接触的
 
 下面开始创建Activity及其布局layout
 在app/src/main/java中右键应用的包名，选择『New』--『Java Class』
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-142028.png)
+![image](http://youdao.mikezz.cn/QQ20190311-142028.png-wardo)
 填写类名Name 并继承android.app.Activity
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-142413.png)
+![image](http://youdao.mikezz.cn/QQ20190311-142413.png-wardo)
 
 创建完MainActivity.java
 
@@ -46,8 +45,8 @@ public class MainActivity extends Activity {
 接着创建此Activity要显示的内容布局文件，在app/src/main/res目录下创建layout文件夹
 ，在该文件夹下新建资源文件，右键『New』-『Layout Resource file』创建.xml格式的资源文件。
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-143457.png)
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-143724.png)
+![image](http://youdao.mikezz.cn/QQ20190311-143457.png-wardo)
+![image](http://youdao.mikezz.cn/QQ20190311-143724.png-wardo)
 
 填写文件名'layout_main'，Root element根元素'LinearLayout'。
 ```
@@ -96,11 +95,11 @@ setContentView方法中，R表示应用的资源文件，这里我们给Activity
 
 # 2运行应用项目
 ## 2.1指定默认Activity
-些时项目仍然是无法运行，![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-135904.png)。
+些时项目仍然是无法运行，![image](http://youdao.mikezz.cn/QQ20190311-135904.png-wardo)。
 
 虽然已经创建了第一个Activity，仍虽在配置清单文件AndroidManifest.xml进行一些配置。
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-151513.png)
+![image](http://youdao.mikezz.cn/QQ20190311-151513.png-wardo)
 
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -126,18 +125,18 @@ setContentView方法中，R表示应用的资源文件，这里我们给Activity
     </application>
 </manifest>
 ```
-在文件添加了一个activity元素，并指定了Mainactivity为应用启动时的默认Activity。此时APP状态变为可运行调试了![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-153923.png)
+在文件添加了一个activity元素，并指定了Mainactivity为应用启动时的默认Activity。此时APP状态变为可运行调试了![image](http://youdao.mikezz.cn/QQ20190311-153923.png-wardo)
 
 ## 2.2在手机或模拟器上运行
 点击三角形运行按钮，待项目编译加成后弹出选择框，选择要运行的真机或模拟器并确认。
 
 *基本上使用真机做开发调试了，用模拟器实在是慢，很耗内存的。*
 
-![http://po1d0nnr5.bkt.clouddn.com/QQ20190311-154607.png](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-154607.png)
+![http://youdao.mikezz.cn/QQ20190311-154607.png-wardo](http://youdao.mikezz.cn/QQ20190311-154607.png-wardo)
 
 等待应用部署到设备上，最后可看到运行效果。
 
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-155056.png)
+![image](http://youdao.mikezz.cn/QQ20190311-155056.png-wardo)
 
 项目运行成功，默认打开了MainActivity，展示了对应的layout_main的内容。
 
@@ -149,7 +148,7 @@ setContentView方法中，R表示应用的资源文件，这里我们给Activity
 
 ## 2.3调试工具Logcat
 可使用Logcat工具查看输出日志。
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-160120.png)
+![image](http://youdao.mikezz.cn/QQ20190311-160120.png-wardo)
 
 可以在代码使用Log类进行各级别的打印，以便在logcat中进行观察调试。
 ```
@@ -170,10 +169,18 @@ public class MainActivity extends Activity {
 }
 ```
 重新运行项目，观察logcat打印的内容。
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-160743.png)
+![image](http://youdao.mikezz.cn/QQ20190311-160743.png-wardo)
 
 
 ## 2.4 Debug工具
 也可以通过debug的方式运行应用，进行断点调试。
-![image](http://po1d0nnr5.bkt.clouddn.com/QQ20190311-161211.png)
+![image](http://youdao.mikezz.cn/QQ20190311-161211.png-wardo)
 
+
+
+
+
+---
+
+
+*Android项目工程相关解析，请自行查阅：[ http://www.runoob.com/w3cnote/android-tutorial-project-src-analysis.html](http://www.runoob.com/w3cnote/android-tutorial-project-src-analysis.html)*
